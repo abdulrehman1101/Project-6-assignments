@@ -10,7 +10,7 @@ class Countdown:
         if self.current < 0:
             raise StopIteration  # Stop when below 0
         value = self.current
-        self.current -= 1
+        self.current -= 10
         return value
 
 # Example usage
